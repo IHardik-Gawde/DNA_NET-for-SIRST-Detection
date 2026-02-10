@@ -1,0 +1,49 @@
+# ===============================
+# Python cache / compiled files
+# ===============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ===============================
+# Virtual environments
+# ===============================
+venv/
+.env/
+.venv/
+
+# ===============================
+# Datasets (DO NOT push)
+# ===============================
+data_256/
+data/
+dataset/
+datasets/
+
+# ===============================
+# Model checkpoints (DO NOT push)
+# ===============================
+checkpoints/*.tar
+checkpoints/*.pth
+checkpoints/*.pt
+
+# ===============================
+# Logs & outputs
+# ===============================
+logs/
+outputs/
+runs/
+
+# ===============================
+# Notebooks
+# ===============================
+.ipynb_checkpoints/
+
+# ===============================
+# OS / Editor files
+# ===============================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
